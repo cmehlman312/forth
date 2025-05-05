@@ -10,7 +10,7 @@ class Forth {
         foreach ($parsed as $key => $value) { 
             $sumValue = 0;
             foreach ($parsed[$key] as $key2 => $value2) { 
-                $sumValue += +$value2['status'];
+                $sumValue += +$value2['status'];  //make sure to convert string to number by prefixing with +
             }
             $segment[$key]= $sumValue;
         }

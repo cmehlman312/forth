@@ -3,7 +3,6 @@ class ForthApiKey extends ForthData{
     public function sumStatusApiKey(){
         $forthdata = new ForthData();
         $json_data = $forthdata->getEndpointData();
-        // $json_data = file_get_contents('example_data.json');
         $decoded_data = json_decode($json_data, true);
         $parsed = $decoded_data['response']['results'];
 
