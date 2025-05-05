@@ -1,4 +1,9 @@
 <?php
+
+//Exmaple of using the apikey
+// This still does not work, no data being returned from curl call
+// but this is the format that would be used for this type of usage
+
 class ForthApiKey extends ForthData{
     public function sumStatusApiKey(){
         $forthdata = new ForthData();

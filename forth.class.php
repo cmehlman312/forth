@@ -1,4 +1,7 @@
 <?php
+
+//Exmaple of parsing the data wnd summing data with a class
+
 class Forth {
     public function sumStatus(){
         $json_data = file_get_contents('example_data.json');

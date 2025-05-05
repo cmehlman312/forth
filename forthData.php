@@ -1,5 +1,7 @@
 <?php
 
+//class that will handle the api call and return data
+
 class ForthData{
     public function getEndpointData(){
         $curl = curl_init();

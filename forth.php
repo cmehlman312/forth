@@ -1,5 +1,8 @@
 <?php
 
+// Striaght up php script file to sum data up and print
+
+
 $json_answer = file_get_contents('example_data.json');
 
 $answer = json_decode($json_answer, true);
